@@ -1,4 +1,4 @@
-
+Exercise1 WEEK2
 1.)
 STORE "m" with 600kg
 STORE "a" with 2m/s2 when 3 person
@@ -11,8 +11,8 @@ DISPLAY "ΣF"
 
 2.)
 IF
-  "tahun habis di bagi 4 dan tidak habis di bagi 100, dan
-  Jika tahun habis di bagi 4, habis di bagi 100 dan habis di bagi 400"
+  "tahun habis di bagi 4 and tidak habis di bagi 100, and"
+IF "tahun habis di bagi 4, habis di bagi 100 and habis di bagi 400"
 ELSE
   DISPLAY "bukan tahun kabisat"
 ELSE
