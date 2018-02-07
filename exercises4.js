@@ -1,8 +1,11 @@
-var hari = 'isi hari'; //1-31
-var bulan = 'isi bulan';//januari - desember
-var tahun = 'isi tahun'; //1900-2200
+var hari = '17'; //1-31
+var bulan = '2';//januari - desember
+var tahun = '2018'; //1900-2200
+for (hari;hari > 0 && hari <= 31; hari++ ){
+    console.log(hari);
+  break;
+}
 
-console.log(hari);
 
  switch(bulan){
    case '1':   { console.log('januari'); break; }
@@ -20,4 +23,7 @@ console.log(hari);
 
     default:  { console.log('bukan nama bulan'); }
 }
-console.log(tahun);
+for (tahun; tahun > 1900 && tahun <= 2200; tahun++ ){
+  console.log(tahun);
+  break;
+}
